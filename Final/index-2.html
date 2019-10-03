@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Pet Finder Quiz</title>
+    <link rel="stylesheet" href="file:///Users/staceyshaller/Desktop/General%20Assembly-FEWD/Final/style-2.css">
+    <link href="https://fonts.googleapis.com/css?family=Cabin+Condensed:600|Luckiest+Guy|Permanent+Marker&display=swap" rel="stylesheet">
+</head>
+<body style="background-color: white;">
+      <div class="nav">
+        <div class="float-row-menu">
+            <div class="float-column-logo">
+                <logo>Pet Finder</logo>
+            </div>
+            <div class="float-column-menu">
+                <item>Donate</item>
+            </div>
+            <div class="float-column-menu">
+                <item>Volunteer</item>
+            </div>
+            <div class="float-column-menu">
+                <item>Contact</item>
+            </div>
+            <div class="float-column-menu">
+                <item>All Pets</item>
+            </div>
+        </div>
+      </div>
+   <div class=main-content> 
+        <div class="container">
+            <div class="headline">do you own your home?</div>
+            <div class="counter">Question 1 of 4</div>
+            <div class="btn-grid-wrapper">
+                <div class="btn">
+                    <button class="question-button button-1">Yep!</button>
+                </div>
+                <div class="btn">
+                    <button class="question-button button-2">I rent</button>
+                </div>
+                <div class="btn">
+                    <button class="question-button button-3">Still in my parents' basement</button>
+                </div>
+            </div>
+            <div class="dog-1">
+                <img src="./Images/pitbull-1.png" alt="dog">
+            </div>
+        </div>
+        <div class="btnContainer"></div>
+    </div>
+    <div class="loader">
+    </div>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="https://unpkg.com/@petfinder/petfinder-js/dist/petfinder.min.js"></script>
+    <script src="file:///Users/staceyshaller/Desktop/General%20Assembly-FEWD/Final/index.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.js"></script>
+    
+    <script>
+
+            // pf.animal.search()
+            // .then(function (response) {
+            //     console.log(response.data.animals); 
+            //     // Do something with `response.data.animals`
+            //     response.data.animals.forEach((animal) => {
+            //         console.log(animal.description);
+            //     var template = `
+            //     <div class="box">
+            //         <a href="${animal.url}">Adoption info</a>
+            //         <p>${animal.description || "This animal has no description"}</p>
+            //     </div>
+            //     `;
+
+            //     document.body.innerHTML += template;
+            // })
+            // .catch(function(error) {
+            //     // Handle the error
+            // });
+        // })
+    </script>
+</body>
+</html>
